@@ -254,6 +254,15 @@
       "name": "ReportSection1dea67c2520bce38f54f",
       "visualContainers": [
         {
+          "config": "{\"name\":\"017953f6d97712a2b1f7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":64.75835441352683,\"y\":454.6036479829583,\"z\":14001,\"width\":543.9701770736253,\"height\":305.65943283184663,\"tabOrder\":14001}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Age.Age Bucket\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(Product.Price Range)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Age\",\"Type\":0},{\"Name\":\"p\",\"Entity\":\"Product\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Age Bucket\"},\"Name\":\"Age.Age Bucket\",\"NativeReferenceName\":\"Age Bucket\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Price Range\"}},\"Function\":5},\"Name\":\"CountNonNull(Product.Price Range)\",\"NativeReferenceName\":\"Count of Price Range\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Price Range\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 305.66,
+          "width": 543.97,
+          "x": 64.76,
+          "y": 454.60,
+          "z": 14001.00
+        },
+        {
           "config": "{\"name\":\"15c415aa8b6550fb4fb5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":764.8796147672551,\"y\":0,\"z\":10000,\"width\":500.16051364365967,\"height\":760,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"PBI_CV_885EF3C3_31C1_4745_B2B9_20771D5AD196\",\"projections\":{\"category\":[{\"queryRef\":\"Details.Info Tooltip\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Details\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Info Tooltip\"},\"Name\":\"Details.Info Tooltip\"}]},\"display\":{\"mode\":\"hidden\"},\"drillFilterOtherVisuals\":true,\"objects\":{\"imageOptions\":[{\"properties\":{}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"61D\"}}}}}],\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'None'\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Tooltip Info\"}},\"Property\":\"Empty\"}},\"Function\":3}}}}}]}}}",
           "filters": "[]",
           "height": 760.00,
